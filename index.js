@@ -1,11 +1,8 @@
 module.exports = {
   id: 'eco-demo',
   name: 'Eco Demo',
-  version: '0.2.0',
-  async activate(ctx) { ctx.registerAgentTool(
-      { name: 'eco_tool', description: 'Eco demo verification tool', parameters: { type: 'object', properties: {}, required: [] } },
-      async () => 'ok'
-    ) },
+  version: '0.3.0',
+  async activate(ctx) { throw new Error('broken version') },
   async deactivate() {},
-  ping() { return 'pong 0.2.0' },
+  ping() { return 'pong 0.3.0' },
 }
