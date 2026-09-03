@@ -1,8 +1,10 @@
 {
   "id": "eco-demo",
   "name": "Eco Demo",
-  "version": "0.1.0",
-  "description": "Knomi community plugin ecosystem verification plugin: registers one Agent tool (eco_tool) for publish/install/update loop testing.",
+  "version": "0.2.0",
+  "description": "Knomi eco verify",
   "entry": "index.js",
-  "permissions": ["agent:tools"]
+  "permissions": [
+    "agent:tools"
+  ]
 }
